@@ -1,0 +1,21 @@
+
+image_width: 1200
+image_height: 680
+camera_name: Replica
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [600.0, 0.0, 599.5, 0.0, 600.0, 339.5, 0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.0, 0.0, 0.0, 0.0, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [600.0, 0.0, 599.5, 0.0, 0.0, 600.0, 339.5, 0.0, 0.0, 0.0, 1.0, 0.0]
