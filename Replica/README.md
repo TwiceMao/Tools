@@ -5,9 +5,7 @@
 **render.cpp**: Modified based on the [Replica dataset](https://github.com/facebookresearch/Replica-Dataset) (ReplicaSDK/src/render.cpp). Need to input processed_poses.txt, render and generate corresponding RGB-D image.
 
 Note that the processed_poses.txt is not camera 2 world. but
-$$
-processed\_poses.txt = (c2w^{-1})^T
-$$
+$processed\_poses.txt = (c2w^{-1})^T$
 
 
 ```python
